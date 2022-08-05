@@ -1,0 +1,42 @@
+POST http://localhost:3000/word HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "yra",
+  "dis": "A sweet and beautiful my dear yra"
+}
+
+###
+POST http://localhost:3000/word HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "rohit",
+  "dis": "Rohit kumar"
+}
+
+###
+GET http://localhost:3000/word HTTP/1.1
+
+###
+DELETE http://localhost:3000/word/1 HTTP/1.1
+
+###
+PUT http://localhost:3000/word/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Yra Rohit",
+  "dis": "A sweet girl"
+}
+
+###
+
+POST http://localhost:3000/user  HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Yra Rohit",
+  "email": "rohit@gmail.com",
+  "password": "Rohit@123"
+}

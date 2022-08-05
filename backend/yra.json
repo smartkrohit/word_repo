@@ -1,0 +1,23 @@
+{
+  "word": [
+    {
+      "name": "Yra Rohit",
+      "dis": "A sweet girl",
+      "id": 1
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Yra Rohit",
+      "email": "rohit@gmail.com",
+      "password": "Rohit@123"
+    },
+    {
+      "name": "Yra Rohit",
+      "email": "rohit@gmail.com",
+      "password": "Rohit@123",
+      "id": 2
+    }
+  ]
+}
